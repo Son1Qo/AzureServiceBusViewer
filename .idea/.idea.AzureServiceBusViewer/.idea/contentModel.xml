@@ -147,7 +147,6 @@
           <e p="node_modules\domain-task" t="IncludeRecursive" />
           <e p="node_modules\domino" t="IncludeRecursive" />
           <e p="node_modules\enhanced-resolve" t="IncludeRecursive" />
-          <e p="node_modules\es6-promise" t="IncludeRecursive" />
           <e p="node_modules\escalade" t="IncludeRecursive" />
           <e p="node_modules\fast-deep-equal" t="IncludeRecursive" />
           <e p="node_modules\fast-json-stable-stringify" t="IncludeRecursive" />
@@ -223,6 +222,7 @@
           <e p="node_modules\typescript\lib\lib.es2017.sharedmemory.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.es2017.string.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.es2017.typedarrays.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2018.asyncgenerator.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.es2018.asynciterable.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.es2018.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.es2018.full.d.ts" t="IncludeRecursive" />
@@ -235,22 +235,26 @@
           <e p="node_modules\typescript\lib\lib.es2019.object.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.es2019.string.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.es2019.symbol.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2020.bigint.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.es2020.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.es2020.full.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2020.intl.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2020.promise.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.es2020.sharedmemory.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.es2020.string.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.es2020.symbol.wellknown.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.es5.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.es6.d.ts" t="IncludeRecursive" />
-          <e p="node_modules\typescript\lib\lib.esnext.array.d.ts" t="IncludeRecursive" />
-          <e p="node_modules\typescript\lib\lib.esnext.asynciterable.d.ts" t="IncludeRecursive" />
-          <e p="node_modules\typescript\lib\lib.esnext.bigint.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.esnext.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.esnext.full.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.esnext.intl.d.ts" t="IncludeRecursive" />
-          <e p="node_modules\typescript\lib\lib.esnext.symbol.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.esnext.promise.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.esnext.string.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.esnext.weakref.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.scripthost.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.webworker.d.ts" t="IncludeRecursive" />
           <e p="node_modules\typescript\lib\lib.webworker.importscripts.d.ts" t="IncludeRecursive" />
+          <e p="node_modules\typescript\lib\lib.webworker.iterable.d.ts" t="IncludeRecursive" />
           <e p="node_modules\uri-js" t="IncludeRecursive" />
           <e p="node_modules\webdriver-js-extender" t="IncludeRecursive" />
           <e p="node_modules\webpack-merge" t="IncludeRecursive" />

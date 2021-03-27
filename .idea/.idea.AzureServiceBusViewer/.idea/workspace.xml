@@ -4,8 +4,9 @@
     <projectFile>AzureServiceBusViewer.UI/AzureServiceBusViewer.UI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="934a6c41-860a-4beb-872b-de749596677f" name="Default Changelist" comment="Angular packages were downgraded.">
+    <list default="true" id="934a6c41-860a-4beb-872b-de749596677f" name="Default Changelist" comment="Angular was updated to 10.1.4 version.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AzureServiceBusViewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AzureServiceBusViewer/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.AzureServiceBusViewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AzureServiceBusViewer/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616844054056</updated>
-      <workItem from="1616844060154" duration="6911000" />
+      <workItem from="1616844060154" duration="7652000" />
     </task>
     <task id="LOCAL-00001" summary="Get resource query was implemented">
       <created>1616849657824</created>
@@ -139,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616851306505</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Angular was updated to 10.1.4 version.">
+      <created>1616852406650</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616852406650</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +170,7 @@
     <MESSAGE value="Get resource query was implemented" />
     <MESSAGE value="Angular was updated to 8.14 version." />
     <MESSAGE value="Angular packages were downgraded." />
-    <option name="LAST_COMMIT_MESSAGE" value="Angular packages were downgraded." />
+    <MESSAGE value="Angular was updated to 10.1.4 version." />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular was updated to 10.1.4 version." />
   </component>
 </project>
