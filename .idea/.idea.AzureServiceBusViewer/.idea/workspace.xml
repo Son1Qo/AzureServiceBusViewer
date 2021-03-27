@@ -4,24 +4,8 @@
     <projectFile>AzureServiceBusViewer.UI/AzureServiceBusViewer.UI.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="934a6c41-860a-4beb-872b-de749596677f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/AzureServiceBusViewer.Application/Queries/GetResource/GetResourceQuery.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AzureServiceBusViewer.Application/Queries/GetResource/GetResourceQueryHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AzureServiceBusViewer.Application/Queries/GetResource/GetResourceQueryValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AzureServiceBusViewer.UI/ClientApp/src/app/service-bus-list/service-bus-list.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AzureServiceBusViewer.UI/ClientApp/src/app/service-bus-list/service-bus-list.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AzureServiceBusViewer.UI/ClientApp/src/app/service-bus-list/service-bus-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.AzureServiceBusViewer/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AzureServiceBusViewer/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="934a6c41-860a-4beb-872b-de749596677f" name="Default Changelist" comment="Angular was updated to 8.14 version.">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.AzureServiceBusViewer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.AzureServiceBusViewer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AzureServiceBusViewer.Application/Commands/AddServiceBus/AddServiceBusCommand.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AzureServiceBusViewer.Application/Commands/AddServiceBus/AddServiceBusCommandValidator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AzureServiceBusViewer.Application/Commands/AddServiceBus/AddServiceBusHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AzureServiceBusViewer.Application/Interfaces/IServiceBusManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AzureServiceBusViewer.Application/Interfaces/IServiceBusManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AzureServiceBusViewer.Application/Queries/GetResources/GetResourcesQueryHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AzureServiceBusViewer.Application/Queries/GetResources/GetResourcesQueryHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AzureServiceBusViewer.Infrastructure/Services/ServiceBusManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AzureServiceBusViewer.Infrastructure/Services/ServiceBusManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AzureServiceBusViewer.UI/ClientApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AzureServiceBusViewer.UI/ClientApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AzureServiceBusViewer.UI/ClientApp/src/app/nav-menu/nav-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/AzureServiceBusViewer.UI/ClientApp/src/app/nav-menu/nav-menu.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AzureServiceBusViewer.UI/Controllers/ResourcesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AzureServiceBusViewer.UI/Controllers/ResourcesController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,8 +113,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616844054056</updated>
-      <workItem from="1616844060154" duration="4539000" />
+      <workItem from="1616844060154" duration="6256000" />
     </task>
+    <task id="LOCAL-00001" summary="Get resource query was implemented">
+      <created>1616849657824</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616849657824</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Angular was updated to 8.14 version.">
+      <created>1616850080867</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616850080867</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,5 +147,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Get resource query was implemented" />
+    <MESSAGE value="Angular was updated to 8.14 version." />
+    <option name="LAST_COMMIT_MESSAGE" value="Angular was updated to 8.14 version." />
   </component>
 </project>
