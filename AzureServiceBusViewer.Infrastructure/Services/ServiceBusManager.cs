@@ -34,5 +34,19 @@ namespace AzureServiceBusViewer.Infrastructure.Services
 
             return resources.AsReadOnly();
         }
+
+        public async Task<Resource> GetResourceAsync(string connectionString, string resourceName)
+        {
+            var client = new ManagementClient(connectionString);
+            var result = await client.GetQueueRuntimeInfoAsync(resourceName);
+
+            return new Resource
+            {
+                Name = result.Path,
+                Type = ResourceType.Queue,
+                MessageCount = result.MessageCountDetails.ActiveMessageCount,
+                DeadLetterCount = result.MessageCountDetails.DeadLetterMessageCount
+            };
+        }
     }
 }

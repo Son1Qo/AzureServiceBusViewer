@@ -1,4 +1,5 @@
 using System.Threading.Tasks;
+using AzureServiceBusViewer.Application.Queries.GetResource;
 using AzureServiceBusViewer.Application.Queries.GetResources;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -22,6 +23,12 @@ namespace AzureServiceBusViewer.UI.Controllers
             
             return Ok(result);
         }
-        
+
+        public async Task<IActionResult> Get([FromQuery] GetResourceQuery query)
+        {
+            var result = await _mediator.Send(query);
+
+            return Ok(result);
+        }
     }
 }

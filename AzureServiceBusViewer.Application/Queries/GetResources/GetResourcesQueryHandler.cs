@@ -16,9 +16,8 @@ namespace AzureServiceBusViewer.Application.Queries.GetResources
             _serviceBusManager = serviceBusManager;
         }
         
-        public async Task<ReadOnlyCollection<Resource>> Handle(GetResourcesQuery request, CancellationToken cancellationToken)
-        {
-            return await _serviceBusManager.GetResourcesAsync(request.ConnectionString);
-        }
+        public async Task<ReadOnlyCollection<Resource>> Handle(GetResourcesQuery request, 
+            CancellationToken cancellationToken) => 
+            await _serviceBusManager.GetResourcesAsync(request.ConnectionString);
     }
 }
