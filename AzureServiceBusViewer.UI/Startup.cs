@@ -1,6 +1,9 @@
+using System.Threading.Tasks;
+using AzureServiceBusViewer.Application;
+using AzureServiceBusViewer.Infrastructure;
+using ElectronNET.API;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -15,12 +18,16 @@ namespace AzureServiceBusViewer.UI
             Configuration = configuration;
         }
 
-        public IConfiguration Configuration { get; }
+        private IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            services
+                .AddApplication()
+                .AddInfrastructure()
+                .AddControllersWithViews();
+
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration => { configuration.RootPath = "ClientApp/dist"; });
         }
@@ -67,6 +74,9 @@ namespace AzureServiceBusViewer.UI
                     spa.UseAngularCliServer(npmScript: "start");
                 }
             });
+
+            Task.Run(async () => await Electron.WindowManager.CreateWindowAsync());
+            Electron.App.WindowAllClosed += () => Electron.App.Exit();
         }
     }
 }

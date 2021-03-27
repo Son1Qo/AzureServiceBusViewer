@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AzureServiceBusViewer.Application\AzureServiceBusViewer.Application.csproj" />
+      <ProjectReference Include="..\AzureServiceBusViewer.Domain\AzureServiceBusViewer.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
