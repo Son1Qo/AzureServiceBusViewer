@@ -111,6 +111,8 @@
           <e p="node_modules\@angular-devkit\build-webpack" t="IncludeRecursive" />
           <e p="node_modules\@angular-devkit\core" t="IncludeRecursive" />
           <e p="node_modules\@angular-devkit\schematics" t="IncludeRecursive" />
+          <e p="node_modules\@babel\parser" t="IncludeRecursive" />
+          <e p="node_modules\@babel\types" t="IncludeRecursive" />
           <e p="node_modules\@jsdevtools\coverage-istanbul-loader" t="IncludeRecursive" />
           <e p="node_modules\@ngtools\webpack" t="IncludeRecursive" />
           <e p="node_modules\@nguniversal\module-map-ngfactory-loader" t="IncludeRecursive" />
@@ -129,6 +131,7 @@
           <e p="node_modules\arg" t="IncludeRecursive" />
           <e p="node_modules\aspnet-prerendering" t="IncludeRecursive" />
           <e p="node_modules\autoprefixer" t="IncludeRecursive" />
+          <e p="node_modules\base64-js" t="IncludeRecursive" />
           <e p="node_modules\blocking-proxy" t="IncludeRecursive" />
           <e p="node_modules\bootstrap" t="IncludeRecursive" />
           <e p="node_modules\browserslist" t="IncludeRecursive" />
@@ -149,15 +152,18 @@
           <e p="node_modules\fast-deep-equal" t="IncludeRecursive" />
           <e p="node_modules\fast-json-stable-stringify" t="IncludeRecursive" />
           <e p="node_modules\fraction.js" t="IncludeRecursive" />
+          <e p="node_modules\fsevents" t="IncludeRecursive" />
           <e p="node_modules\hammerjs" t="IncludeRecursive" />
           <e p="node_modules\hash.js" t="IncludeRecursive" />
           <e p="node_modules\https-proxy-agent" t="IncludeRecursive" />
+          <e p="node_modules\is-docker" t="IncludeRecursive" />
           <e p="node_modules\is-interactive" t="IncludeRecursive" />
           <e p="node_modules\is-unicode-supported" t="IncludeRecursive" />
           <e p="node_modules\jasmine-core" t="IncludeRecursive" />
           <e p="node_modules\jasmine-spec-reporter" t="IncludeRecursive" />
           <e p="node_modules\jest-worker" t="IncludeRecursive" />
           <e p="node_modules\jquery" t="IncludeRecursive" />
+          <e p="node_modules\jsonc-parser" t="IncludeRecursive" />
           <e p="node_modules\karma" t="IncludeRecursive" />
           <e p="node_modules\karma-chrome-launcher" t="IncludeRecursive" />
           <e p="node_modules\karma-coverage-istanbul-reporter" t="IncludeRecursive" />
