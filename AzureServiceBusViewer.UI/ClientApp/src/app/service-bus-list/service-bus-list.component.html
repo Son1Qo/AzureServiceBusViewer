@@ -1,8 +1,27 @@
 ﻿<h1>Service bus list</h1>
 
-<div>Add service bus</div>
-<label>
-  <textarea placeholder="Connection string"></textarea>
-</label>
-<button>Add</button>
+<mat-tab-group [selectedIndex]="selected.value"
+               (selectedIndexChange)="selected.setValue($event)">
+  <mat-tab *ngFor="let tab of list; let index = index" [label]="tab.name">
+
+  </mat-tab>
+</mat-tab-group>
+
+<form *ngIf="isFormVisible" [formGroup]="form" (ngSubmit)="Add()" class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Name</mat-label>
+    <input matInput placeholder="Ex. Pizza" type="text" formControlName="name">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width">
+    <mat-label>Connection string</mat-label>
+    <textarea matInput placeholder="Ex. It makes me feel..." formControlName="connectionString"></textarea>
+  </mat-form-field>
+
+  <button type="submit" mat-raised-button>Add</button>
+</form>
+
+<div *ngIf="!isFormVisible">
+  <button (click)="Plus()" mat-raised-button>+</button>
+</div>
 
